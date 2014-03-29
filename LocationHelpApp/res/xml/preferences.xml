@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <ListPreference
+        android:key="pref_mode"
+        android:title="@string/pref_mode"
+        android:dialogTitle="@string/pref_mode_dailog"
+        android:entries="@array/pref_mode_entries"
+        android:entryValues="@array/pref_mode_values"
+        android:defaultValue="@string/pref_mode_default" />
+    
+    <CheckBoxPreference 
+        android:key="pref_email_chck"
+        android:title="@string/pref_email_chck_title"
+        android:summary="@string/pref_email_chck_summary"
+        android:defaultValue="true" />
+    
+    <EditTextPreference 
+        android:key="pref_email"
+        android:title="@string/pref_email_title"
+        android:summary="@string/pref_email_summary"
+        android:singleLine="true"
+    	android:lines="1"
+    	android:dependency="pref_email_chck" />
+    
+    <EditTextPreference 
+        android:key="pref_phone_number"
+        android:title="@string/pref_phone_number_title"
+        android:summary="@string/pref_phone_number_summary"
+        android:dialogMessage="@string/pref_phone_number_summary"
+        android:inputType="number" 
+        android:singleLine="true"
+    	android:lines="1" />
+    
+    <EditTextPreference 
+        android:key="pref_sms"
+        android:title="@string/pref_sms_title"
+        android:inputType="textMultiLine" 
+        android:lines="8" 
+    	android:minLines="6" 
+    	android:gravity="top|left" 
+    	android:maxLines="10" 
+    	android:layout_height="fill_parent" 
+    	android:layout_width="fill_parent" 
+    	android:scrollbars="vertical" />
+    
+</PreferenceScreen>

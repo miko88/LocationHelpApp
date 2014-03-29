@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Vyhľadaj pomoc</string>
+    <string name="action_settings">Nastavenia</string>
+    <string name="action_info">Info</string>
+    <string name="button_med">Záchranáry</string>
+    <string name="button_pol">Polícia</string>
+    <string name="button_fir">Požiarnici</string>
+    
+    <string name="pref_mode">Režim aplikácie</string>
+    <string name="pref_mode_dailog">Zvoľte režim</string>
+    <string name="pref_mode_default">secure</string>
+    
+    
+    <string name="pref_email_chck_title">Pomoc - email</string>
+    <string name="pref_email_chck_summary">Kontaktovanie pomoci emailom v prípade výpadku telefónnej siete.</string>
+    
+    <string name="pref_phone_number_title">Telefónne číslo</string>
+    <string name="pref_phone_number_summary">Telefónne číslo, pre spätné kontaktovanie záchrannou zložkou.</string>
+    
+   
+    <string name="pref_email_title">Email</string>
+    <string name="pref_email_summary">Emailová adresa.</string>
+    
+    
+    <string name="pref_sms_title">SMS</string>    
+    
+    <string-array name="pref_mode_entries">
+    	<item>"Bezpečný"</item>
+    	<item>"Pohotovostný"</item>
+	</string-array>
+	
+    <string-array name="pref_mode_values">
+    	<item>"secure"</item>
+    	<item>"emergency"</item>
+	</string-array>
+
+</resources>
